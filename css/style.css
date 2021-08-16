@@ -1,0 +1,72 @@
+*{
+  margin:0px;
+  padding:0px;
+  }
+
+.header{
+	height: 150px;
+	width: 100%;
+	background-color: #47D2FF;
+  position: relative;
+}
+
+.heading{
+	  text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgba(255,255,255,1.00);
+    text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkred;
+    position: relative;
+    padding-top: 20px;
+}
+
+
+#box{
+	 box-shadow: 10px 10px 5px;
+}
+
+#panel-head{
+	  text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #1CF9AE;
+   	text-shadow: 1px 1px 2px black, 0 0 25px #80D0FA, 0 0 5px darkred;
+}
+
+#appointment-button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+
+#appointment-button:hover {background-color: #3e8e41}
+
+#appointment-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#footer{
+	height: 70px;
+	width: 100%;
+	background-color: #A1ECFA ;
+}
+.footer-title{
+		text-align: center;
+		position: relative;
+		padding-top: 30px;
+}
+
